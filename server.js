@@ -40,4 +40,5 @@ router.get('/api/search-prompts', ctx => {
 })
 
 app.use(router.routes()).use(router.allowedMethods())
-app.listen(process.env.PORT || 8001)
+
+app.listen(process.env.PORT || 8000)
